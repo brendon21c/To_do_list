@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:id="@+id/new_todo_item_edittext"
+        android:textColor="@color/listViewText"
         />
 
     <Button
@@ -31,5 +32,5 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/new_todo_item_button"
         android:id="@+id/todo_listview"
-        />
+        android:background="@color/colorPrimary"/>
 </RelativeLayout>
